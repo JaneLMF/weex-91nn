@@ -7,7 +7,7 @@
     "build": "webpack",
     "build_plugin": "webpack --config ./tools/webpack.config.plugin.js --color",
     "dev": "node build/init.js && webpack --watch & serve -p 8080",
-    "serve": "webpack-dev-server --config webpack.dev.js -p --open",
+    "serve": "webpack-dev-server --config webpack.dev.js -p",
     "debug": "weex-devtool"
   },
   "keywords": [

@@ -27,6 +27,7 @@
     // only for web
     bundle.src = page.replace(/\.js$/, '.web.js')
     document.body.appendChild(bundle)
+    document.body.style.height = window.innerHeight - 1 + "px"
   })();
 </script>
 
